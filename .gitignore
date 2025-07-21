@@ -1,0 +1,21 @@
+# Ignore Docker volumes (persistent data)
+portainer_data/
+jenkins_data/
+gitea_data/
+
+# Ignore Docker socket
+/var/run/docker.sock
+
+# Ignore environment files
+.env
+
+# Ignore node_modules (if you ever add any Node projects)
+node_modules/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temp files
+*.log
+*.tmp
