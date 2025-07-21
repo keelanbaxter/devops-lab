@@ -9,7 +9,7 @@ gitea_data/
 # Ignore environment files
 .env
 
-# Ignore node_modules (if you ever add any Node projects)
+# Ignore node_modules
 node_modules/
 
 # Ignore OS files
@@ -19,3 +19,24 @@ Thumbs.db
 # Ignore logs and temp files
 *.log
 *.tmp
+
+# Vagrant files
+.vagrant/
+
+# SSH keys
+*.pem
+*.key
+*.crt
+id_rsa*
+id_ed25519*
+
+# Docker Compose override files
+docker-compose.override.yml
+
+# Docker-related temp files
+docker-compose.yml.bak
+*.pid
+
+# Python cache (automation scripts)
+__pycache__/
+*.pyc
